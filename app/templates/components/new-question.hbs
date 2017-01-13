@@ -1,5 +1,25 @@
-{{#if addNewRental}}
-  <p>Test</p>
+{{#if addNewQuestion}}
+<h1>New Rental</h1>
+<div>
+  <form>
+    <div class="form-group">
+      <label for="author">Author</label>
+      {{input value=author id="author"}}
+    </div>
+
+    <div class="form-group">
+      <label for="description">Question</label>
+      {{input value=description id="description"}}
+    </div>
+
+    <div class="form-group">
+      <label for="notes">Notes</label>
+      {{input value=notes id="notes"}}
+    </div>
+
+    <button {{action 'saveQuestion'}}>Save</button>
+  </form>
+</div>
 {{else}}
   <button {{action 'questionFormShow'}}>New Question</button>
 {{/if}}
