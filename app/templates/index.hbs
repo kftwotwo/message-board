@@ -1,7 +1,9 @@
-<ul>
-  {{#each model.questions as |question|}}
-    {{question-tile question=question}}
-  {{/each}}
-</ul>
+<div class="well">
+  <ul>
+    {{#each model.questions as |question|}}
+      {{question-tile question=question}}
+    {{/each}}
+  </ul>
+</div>
 
 {{new-question saveQuestion="saveQuestion"}}

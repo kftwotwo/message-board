@@ -1,13 +1,9 @@
 <div class= "container">
-  <header class= "jumbotron">
-    <h1>Question Board</h1>
-    <hr>
-    {{#link-to 'index'}}Home{{/link-to}}|
-    {{#link-to 'about'}}About{{/link-to}}
-    <hr>
-  </header>
+  <ul class="nav nav-tabs">
+    <li role="presentation" class="active">{{#link-to 'index'}}Home{{/link-to}}</li>
+    <li role="presentation" class="active">{{#link-to 'about'}}About{{/link-to}}</li>
+  </ul>
     {{outlet}}
-  <hr>
   <footer>
   </footer>
 </div>
