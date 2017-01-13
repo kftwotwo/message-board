@@ -1,4 +1,7 @@
+var apiKey = require('./../.env').apiKey;
+
 /* jshint node: true */
+
 
 module.exports = function(environment) {
   var ENV = {
@@ -18,7 +21,7 @@ module.exports = function(environment) {
     },
 
     firebase: {
-      apiKey: "AIzaSyAlvPvc-38J01dN-OD1eq7DJhTVwuKKjHI",
+      apiKey: apiKey,
       authDomain: "message-board-1f043.firebaseapp.com",
       databaseURL: "https://message-board-1f043.firebaseio.com",
       storageBucket: "message-board-1f043.appspot.com"

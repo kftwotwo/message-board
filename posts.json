@@ -1,14 +1,14 @@
 { "questions": [{
     "author": "Bob Joe",
-    "question": "How do you work a computer?",
+    "description": "How do you work a computer?",
     "notes": "Computers are sutpid"
 }, {
     "author": "James Nick",
-    "question": "What is JavaScript?",
+    "description": "What is JavaScript?",
     "notes": "JavaScript?"
 }, {
   "author": "Cooper Crabtree",
-  "question": "Is a computer nerd cool?",
+  "description": "Is a computer nerd cool?",
   "notes": "Nerds?"
   }]
 }
