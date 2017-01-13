@@ -1,4 +1,11 @@
 <p><strong>Question:</strong> {{question.description}}</p>
 <p><strong>Notes:</strong>{{question.notes}}</p>
 
+<h2>Comments</h2>
+<ul>
+  {{#each question.comments as |comment|}}
+    {{comment-tile comment=comment}}
+  {{/each}}
+</ul>
+
 <button {{action 'delete' question}}>Delete</button>
