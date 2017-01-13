@@ -7,7 +7,6 @@ export default Ember.Component.extend({
         this.sendAction('destroyQuestion', question);
       }
     },
-
     destroyComment(comment) {
       if (confirm('Are you sure you want to delete this comment?')) {
         this.sendAction('destroyComment', comment);
