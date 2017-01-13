@@ -10,7 +10,8 @@ export default Ember.Component.extend({
     update(question, params) {
       this.sendAction('update', question, params);
     },
-    destroyReview(comment) {
+
+    destroyComment(comment) {
      this.sendAction('destroyComment', comment);
    }
   }

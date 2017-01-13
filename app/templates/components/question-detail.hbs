@@ -4,7 +4,7 @@
 <h2>Comments</h2>
 <ul>
   {{#each question.comments as |comment|}}
-    {{comment-tile comment=comment}}
+    {{comment-tile comment=comment destroyComment="destroyComment"}}
   {{/each}}
 </ul>
 
