@@ -1,52 +1,47 @@
-# mss-board
+# Better Doctor
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+ Journal, 1-13-2017
 
-## Prerequisites
+ By [Kevin Finley](http://www.kfinley.com)
 
-You will need the following things properly installed on your computer.
+## Description
 
-* [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/) (with NPM)
-* [Bower](https://bower.io/)
-* [Ember CLI](https://ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
+With this app you can ask a question or write a message and able to add comments to those those post.
 
-## Installation
+## Setup/Installation Requirements
 
-* `git clone <repository-url>` this repository
-* `cd mss-board`
-* `npm install`
-* `bower install`
+Clone the repository and `cd` into your directory:
+```
+$ npm install
+$ bower install
+$ ember s
+```
 
-## Running / Development
+## Setting API Keys
+Go to [Firebase](https://firebase.google.com/) and obtain an api key, then set the api key as a environment variable in the following fomat. Then make a json file like the one down below and import it into firebase.
+```
+exports.apiKey = '<API_KEY>'
+```
+### posts.json
+```
+{ "questions": [{
+    "author": "Bob Joe",
+    "description": "How do you work a computer?",
+    "notes": "Computers are sutpid"
+  }]
+}
+```
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
 
-### Code Generators
+## Known Bugs
 
-Make use of the many generators for code, try `ember help generate` for more details
+If you notice any bugs or problems you can fill out an issue [here](http://www.github.com/kftwotwo/message-board/issues) or feel free to submit a pull request.
 
-### Running Tests
+## Contact details
+Here is my email kf.two.two@gmail.com
 
-* `ember test`
-* `ember test --server`
+### License
 
-### Building
+*This is under a MIT License*
 
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+Copyright (c) 2017 **_Kevin Finley_**
