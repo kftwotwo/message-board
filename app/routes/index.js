@@ -28,6 +28,12 @@ export default Ember.Route.extend({
       });
       question.save();
       this.transitionTo('index');
+    },
+
+    saveComment(params) {
+      var newComment = this.store.createRecord('comment', params);
+      newComment.save();
+      this.transitionTo('index');
     }
   }
 });
