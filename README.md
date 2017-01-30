@@ -27,7 +27,7 @@ exports.apiKey = '<API_KEY>'
 { "questions": [{
     "author": "Bob Joe",
     "description": "How do you work a computer?",
-    "notes": "Computers are sutpid"
+    "notes": "Computers are stupid"
   }]
 }
 ```
