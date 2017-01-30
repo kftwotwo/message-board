@@ -1,4 +1,4 @@
-# Better Doctor
+# Message Board
 
  Journal, 1-13-2017
 
@@ -18,7 +18,7 @@ $ ember s
 ```
 
 ## Setting API Keys
-Go to [Firebase](https://firebase.google.com/) and obtain an api key, then set the api key as a environment variable in the following fomat. Then make a json file like the one down below and import it into firebase.
+Go to [Firebase](https://firebase.google.com/) and obtain an api key, then set the api key as a environment variable in the following format. Then make a `.json` file like the one down below and import it into firebase.
 ```
 exports.apiKey = '<API_KEY>'
 ```
@@ -38,7 +38,11 @@ exports.apiKey = '<API_KEY>'
 If you notice any bugs or problems you can fill out an issue [here](http://www.github.com/kftwotwo/message-board/issues) or feel free to submit a pull request.
 
 ## Contact details
-Here is my email kf.two.two@gmail.com
+If you need to contact me my email is `kftwotow@gmail.com`
+
+## Contribute
+
+If you wish to contribute create an issue and describe your idea then fork it and submit a pull request!
 
 ### License
 
